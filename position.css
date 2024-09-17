@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+ width: 500px;
+ height: 1500px;
+ border: 2px solid red;
+ position: absolute;
+ right: 0;
+ top: 0;
+ 
+}
+.container>div{
+height: 100px;
+/* width: 100px; */
+}
+
+.mercy{
+background-color: blue;
+position: fixed;
+right: 0;
+top: 0;
+width: 200%;
+z-index: 0;
+}
+
+.mercy p{
+position: absolute;
+right: 0;
+
+}
+
+.ope{
+background-color: silver;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100px;
+
+}
+
+.plato{
+background-color: gold;
+position: absolute;
+top: 0;
+left: 0;
+width: 100px;
+z-index: 20;
+
+}
+.adeyanju{
+background-color: green;
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100px;
+}
+.sule{
+background-color: aqua;
+position: absolute;
+right: 38%;
+bottom: 38%;
+width: 100px;
+}

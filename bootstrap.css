@@ -1,0 +1,20 @@
+/* .header{
+    height: 70vh;
+    background-image: url("./Multimedia/camera.jpg");
+    background-position: centre;
+    background-repeat: no-repeat;
+    
+} */
+
+body{
+    /* background-color: green ; */
+}
+
+.mercy:hover{
+border: 2px solid white;
+outline: 2px solid red;
+}
+.start:hover{
+    border: 2px solid red;
+    outline: 2px solid green;
+}

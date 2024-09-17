@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200PX;
+    height: 200PX;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+} 
+
+.box{
+    /* transition-property: background-color, width, height, rotateX; 
+    transition-duration: 2s;
+    transition-timing-function: ease-in ;
+    transition-delay: 1s; */
+
+    /* transition: transform 1s ease-in 3s, background-color 2s ease-in-out 2s, width 2s ease-in-out 2s; */
+    
+}   
+
+/* transition: property,delay,timing function,durationwidth */
+
+/* .box{
+    transition-property: transform,background-color, width, height, rotateX; 
+    transition-duration: 2s;
+    transition-timing-function: ease-in ;
+    transition-delay: 1s;
+    
+}    */
+
+.box:hover{
+    /* transform: translate(50PX,50PX); */
+    /* transform: translateX(100px); */
+    /* transition: all ease-in-out 1s; */
+    /* transition: all 2s ease-in-out 1s; */
+    /* transform:  scale(2) */
+    /* transform:  scaleX(2) */
+    /* transform:  scaleY(0.5) */
+    /* background-color: green; */
+    /* width: 300px;
+    height: 300px; */
+    
+    /* transform: skew(45deg); */
+    /* transform: skewY(25deg); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(45deg); */
+
+    /* 1st give animation a name 
+    */
+    animation-name: ayobami;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes ayobami {
+    from{
+        background-color: fuchsia;
+        transform : translateX(0)
+    }
+    to{
+        border-color: maroon;
+        transform : translateX(1200px)
+    }
+        
+}
+
+img{
+    /* filter: blur(2px); */
+    /* filter: grayscale(100%); */
+    /* filter: sepia(100%); */
+}
+
+img.sqi{
+
+    filter: grayscale(100%);
+}
+   
+/* matrix(ScaleX() skewY() skewX()scale Y() transitionX() transitionY()) */ 
+    /* transform: matrix(1,2,2,1,2,2) */
+
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+
+    /* for one line.....transition: property, delay,timing function,duration */
+    
+    /* width: 300px; */
+    /* height: 300px; */
+    /* background-color: aqua; */
+    /* transition: all 2s ease-in-out 1s;
+    transform: rotate(360deg); */
+
+
+
+
+
+
+
+
+
+
+

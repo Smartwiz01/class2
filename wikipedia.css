@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+/* width: 50%; */
+/* height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center; */
+position: relative;
+}
+
+.container{
+
+position: absolute;
+/* width: 50%; */
+right: 38%;
+top: 20%;
+
+}
+
+.lang{
+position: absolute;
+}
+
+.english{
+
+top :0%;
+right: -40%;
+
+}
+
+.chinese{
+
+    top :15%;
+    right: -40%;
+}
+
+
+.pyc{
+
+    top :30%;
+    right: -50%;
+}
+
+
+.deutsch{
+
+    top :47%;
+    right: -55%;
+}
+
+
+.espanol{
+
+    top :65%;
+    right: -50%;
+}
+
+
+.francais{
+
+    top :0%;
+    left:  -26%;
+}
+
+
+.italiano {
+
+    top :15%;
+    right: -38%;
+} 

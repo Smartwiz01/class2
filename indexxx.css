@@ -1,0 +1,19 @@
+img{
+    height: 300px;
+    width: 420px;
+    border-radius: 18px;
+    margin-left: 50px;
+}
+
+.button{
+    height: 50px;
+    width: 75px;
+    border: 1px solid red;
+    border-radius: 7px;
+    background-color: violet;
+}
+.note{
+    font-family: "Matemasie", system-ui;
+    color: grey;
+}
+

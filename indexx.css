@@ -1,0 +1,60 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+
+} */
+
+img{
+    height: 350px;
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    
+    
+}
+
+.note{
+    font-size: 23px;
+    font-weight: 20px;
+    margin-left: 50px;
+}
+.note2{ 
+    font-size: 17px;
+    font-weight: 100;
+    color: grey;
+    margin-left: 50px;
+}
+
+.note3{
+    font-size: 20px;
+    font-weight: 20px;
+    color: dimgrey;
+    margin-left: 50px;
+    
+}
+img{
+    height: 350px;
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+
+
+}
+.note4{
+    font-size: 23px;
+    font-weight: 20px;
+    margin-left: 50px;
+}
+
+.note5{
+    font-size: 20px;
+    font-weight: 20px;
+    margin-left: 50px;
+    color: dimgrey;
+}
+
+

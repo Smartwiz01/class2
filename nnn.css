@@ -1,0 +1,74 @@
+.box{
+    border: 1px solid red;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+.aa{
+    background-color: aquamarine;
+    /* float: left; */
+}
+.bb{
+    background-color: beige;
+    /* float: left; */
+}
+.cc{
+    background-color: bisque;
+    /* float: left; */
+
+}
+.dd{
+    background-color: blueviolet;
+    /* float: left; */
+}
+.ee{
+    background-color: chartreuse;
+    /* float: left; */
+}
+.ff{
+    background-color: brown;
+    /* float: left; */
+}
+
+.aa{
+    width: 150px;
+    height: 150px;
+}
+.bb{
+    width: 150px;
+    height: 150px;
+}
+.cc{
+    width: 150px;
+    height: 150px;
+}
+.dd{
+    width: 150px;
+    height: 150px;
+}
+.ee{
+    width: 150px;
+    height: 150px;
+}
+.ff{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    
+    /* width: 25vw; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* gap:20px; */
+    /* gap applies both hor and vert */
+    column-gap: 10px; row-gap: 20px;
+    /* justify-items: end;
+    align-items: center; */
+    position: relative;
+
+}
+.aa{
+    position: absolute ;
+    right: 10px;
+}
+ 

@@ -1,0 +1,33 @@
+.box{
+    border: 1px solid red;
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+}
+.aa{
+    background-color: aquamarine;
+    float: left;
+}
+.bb{
+    background-color: blue;
+    float: left ;
+}
+.cc{
+    background-color: green;
+    float: left;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* align-items: center; */
+    /* dispaly flex should be used in the main container */
+
+}
+/* .jjj{ */
+    /* display: flex;
+    flex-direction: row-reverse; */
+    /* display: block;
+    background-color: yellow; */
+    /* margin-bottom: 10px; */
+/* } */

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 32px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+    background-color: white;
+} */
+
+.logo{
+    width:80px;
+    
+}
+
+.nav{
+    margin-left: 120px;
+    display: flex;
+    
+}
+
+
+ .nav-link{
+    display: flex;
+    gap: 100px;
+} 
+/* .nav-link a{
+    font-size: 17px;
+    color: #7c6e61;
+    font-weight:500; */
+
+}
